@@ -2,12 +2,12 @@ import React from 'react';
 import './Explores.css';
 import Card from '../Cards/Card.jsx';
 
-import Vector1 from '../../assets/Vector1.png';
-import Vector2 from '../../assets/Vector2.png';
-import Vector3 from '../../assets/Vector3.png';
-import Vector4 from '../../assets/Vector4.png';
-import Vector5 from '../../assets/Vector5.png';
-import Vector6 from '../../assets/Vector6.png';
+import Vector1 from '../../assets/vector1.png';
+import Vector2 from '../../assets/vector2.png';
+import Vector3 from '../../assets/vector3.png';
+import Vector4 from '../../assets/vector4.png';
+import Vector5 from '../../assets/vector5.png';
+import Vector6 from '../../assets/vector6.png';
 
 const cardData = [
   { title: "Company Formation", desc: "Build web-based solutions that enhance customer experience.", image: Vector1 },
