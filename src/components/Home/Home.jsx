@@ -3,7 +3,7 @@ import './Home.css';
 import Group3 from '../../assets/Group3.png';
 import { MdOutlineStar } from "react-icons/md";
 import { IoStarSharp } from "react-icons/io5";
-import Vector from '../../assets/vector.png';
+import Vector from '../../assets/Vector.png';
 import Svg from '../../assets/SVG.png';
 import Svg1 from '../../assets/SVG1.png';
 import Frame from '../../assets/Frame.png';
