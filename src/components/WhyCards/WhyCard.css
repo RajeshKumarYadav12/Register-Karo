@@ -1,0 +1,53 @@
+.why-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px);
+  height: 200px;
+  border: 1px solid rgb(244, 208, 208);
+  cursor: pointer;
+}
+
+/* Background color classes for dynamic assignment */
+.bg-color-1 {
+  background-color: #e4e7ee;
+}
+
+.bg-color-2 {
+  background-color: #FEF3EF;
+}
+
+.bg-color-3 {
+  background-color:#F1FBF3;
+}
+
+.bg-color-4 {
+  background-color: #FBF1FB;
+}
+.bg-color-5 {
+  background-color: #e8ebe9eb;
+}
+
+.why-card-img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.why-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.why-card-desc {
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .why-card {
+    width: 100%;
+  }
+}

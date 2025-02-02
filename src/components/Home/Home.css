@@ -1,0 +1,389 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  width: 100%;
+  height: 585px;
+  background-color: #e6edf8;
+}
+
+/* home left */
+.home-left {
+  width: 700px;
+  height: 566px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home .home-left .rating-1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.home .home-left .rating-1 .firstA .first1 {
+  color: #F2C94C;
+  width: 35px;
+  height: 35px;
+}
+
+.home .home-left .rating-1 p {
+  font-weight: 600;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+.home .home-left .rating-1 .secondA {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.home .home-left .rating-1 .secondA .second1 {
+  color: #ffffff;
+  width: 25px;
+  height: 22px;
+  background-color: #F2C94C;
+}
+
+.home-left .header .title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.home-left .header .subtitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home-left .header {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.home-left .review {
+  margin: 20px 0px;
+}
+
+.home-left .review .customer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.home-left .review .customer .customer-rating h2 {
+  font-weight: 800;
+  font-size: 22px;
+  color: #AC8043;
+}
+
+.home-left .review .customer .customer-rating p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.review .customer .logo {
+  display: grid;
+  align-content: start;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.review .client {
+  display: flex;
+  gap: 15px;
+}
+
+.review .client .review1 h2 {
+  font-weight: 800;
+  font-size: 22px;
+  color: #AC8043;
+}
+
+.review .client .review1 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.review .finance {
+  display: flex;
+  gap: 15px;
+}
+
+.review .finance .review2 p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.review .finance .review2 h2 {
+  color: #AC8043;
+}
+
+.home .home-left .review {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.home-left .test-1 button {
+  background-color: #1C4670;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 157px;
+  height: 46px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  font-weight: 500;
+}
+
+.testPlay-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.play-1 {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #FB432C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #FB432C;
+}
+
+.play-1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.testPlay-1 p {
+  font-size: 16px;
+  color: #494848;
+  font-weight: 600;
+}
+
+.home-left .test-1 .testPlay-1 {
+  display: flex;
+  align-items: center;
+}
+
+.home-left .test-1 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+/* home right css */
+
+.home-right {
+  position: relative;
+}
+
+.home-right img {
+  margin-top: 100px;
+  height: 484px;
+  width: 600px;
+}
+
+.home-right .service-1 {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-right .focus {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 230px;
+  height: 171px;
+}
+
+.home-right .service-1 button {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 8px;
+  width: 156px;
+  height: 48px;
+  color: #302f2f;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+    padding-left: 30px;
+    height: auto;
+  }
+
+  .home-left, .home-right {
+    width: 100%;
+  }
+
+  .home-left {
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  .home-left .header .title {
+    font-size: 36px;
+  }
+
+  .home-left .header .subtitle {
+    font-size: 18px;
+  }
+
+  .home-right img {
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .home-right .focus {
+    width: 180px;
+    height: 135px;
+  }
+
+  .home-right .service-1 button {
+    width: 130px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .home-left {
+    margin-top: 15px;
+    width: 100%;
+    gap: 25px;
+  }
+
+  .home-left .title {
+    font-size: 28px;
+  }
+
+  .home-left .subtitle {
+    font-size: 16px;
+  }
+
+  .home-left .test-1 button {
+    width: 140px;
+    font-size: 16px;
+  }
+
+  .home-left .testPlay-1 p {
+    font-size: 14px;
+  }
+
+  .home-right .service-1 button {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .home-right img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .home-right .focus {
+    width: 150px;
+    height: 110px;
+  }
+}
+@media (max-width: 480px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  
+  .home-left .review .customer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  /* Adjust text sizes */
+  .home-left .rating-1 p {
+    font-size: 12px;
+  }
+
+  .home-left .title {
+    font-size: 24px;
+  }
+
+  .home-left .subtitle-1 {
+    font-size: 14px;
+  }
+
+  /* Adjust the home-right layout to stack elements vertically */
+  .home-right {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the items horizontally */
+  }
+
+  /* Make the home-right image responsive */
+  .home-right img {
+    width: 100%; /* Ensure the image is responsive */
+    margin-top: 20px;
+  }
+
+  /* Hide the service section at 480px */
+  .home-right .service-1 {
+    display: none;
+  }
+
+  /* Adjust the focus image for responsiveness */
+  .home-right .focus {
+    width: 130px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  /* Adjust button size */
+  .home-left .test-1 button {
+    width: 120px;
+  }
+}
+
+@media (max-width: 440px) {
+  .home-left .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .test-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .home-right {
+    margin-top: 50px;
+  }
+}

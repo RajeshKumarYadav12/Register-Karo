@@ -1,0 +1,119 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71.1px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Logo Styling */
+.Navbar img {
+  width: 200px;
+  height: 36.8px;
+  background-size: cover;
+}
+
+/* Navbar List Styling */
+.Navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #272D37;
+  font-weight: 500;
+}
+
+/* Dropdown Styling */
+.Navbar ul li select {
+  font-size: 18px;
+  border: none;
+  font-weight: 500;
+}
+
+/* Button Styling */
+.Navbar ul li button {
+  background-color: #FFA229;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 157px;
+  height: 46px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .Navbar {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .Navbar ul {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-wrap: wrap; /* Allows wrapping */
+    justify-content: center;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .Navbar img {
+    width: 160px; /* Reduce logo size */
+  }
+
+  .Navbar ul {
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 16px;
+    
+  }
+
+  .Navbar ul li select {
+    font-size: 16px;
+  }
+
+  .Navbar ul li button {
+    width: 140px;
+    height: 42px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .Navbar img {
+    width: 140px;
+  }
+
+  .Navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    justify-content: left;
+    text-align: left;
+  }
+
+  .Navbar ul li button {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

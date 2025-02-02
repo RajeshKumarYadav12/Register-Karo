@@ -1,0 +1,37 @@
+.questionAsk {
+  width: 100%;
+  max-width: 1272px;
+  height: 70px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Stronger shadow effect */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+}
+
+.questionAsk:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
+}
+
+.exactQuestion {
+  display: flex;
+  justify-content: space-between; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  width: 100%; /* Makes sure the content takes up the full width of the parent */
+}
+
+.exactQuestion p {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px; /* Adds space between text and icon */
+}
+
+.exactQuestion img {
+  width: 20px;
+  cursor: pointer;
+}

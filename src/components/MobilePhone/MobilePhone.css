@@ -1,0 +1,163 @@
+.mobilePhone {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  background-color: #1C4670;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10%;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* Left Section */
+.phone-left {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.first {
+  width: 100%;
+}
+
+.first h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.second p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #AAB5CD;
+  width: 100%;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.third p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.app {
+  display: flex;
+  gap: 6px;
+  margin-left: -7px;
+}
+
+.app img {
+  width: 150px;
+  cursor: pointer;
+}
+
+/* Right Section (Two Half-Half Images) */
+.phone-right {
+  display: flex;
+  width: 50%;
+  position: relative;
+  justify-content: flex-end;
+  gap: 42px;
+  align-items: center;
+}
+
+.phone-right img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.phone-right img:first-child {
+  position: relative;
+  margin-top: 160px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.phone-right img:last-child {
+  position: relative;
+  left: -20px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .mobilePhone {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .phone-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .phone-right {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .phone-right img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .phone-left {
+    text-align: center;
+  }
+  .phone-left .third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .phone-right img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .first h2 {
+    font-size: 24px;
+  }
+
+  .second p {
+    font-size: 14px;
+  }
+
+  .third p {
+    font-size: 14px;
+  }
+
+  .app img {
+    width: 120px;
+    
+  }
+  .phone-right {
+    margin-top: -100px;
+  }
+
+  .phone-right img {
+    width: 90%;
+    text-align: center;
+  }
+}

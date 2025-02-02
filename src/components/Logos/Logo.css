@@ -1,0 +1,39 @@
+.header-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Adjusted padding for responsiveness */
+}
+
+.header-logo img {
+  width: 100%;
+  max-width: 1000px; /* Prevents it from getting too large on big screens */
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .header-logo {
+    padding: 10px; /* Reduces padding on smaller screens */
+  }
+  .header-logo img {
+    max-width: 80%; /* Ensures it stays well-proportioned */
+  }
+}
+
+@media (max-width: 768px) {
+  .header-logo img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-logo {
+    height: auto; /* Adjusts height for small screens */
+  }
+  .header-logo img {
+    max-width: 90%; /* Makes sure it fits within the screen */
+  }
+}

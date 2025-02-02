@@ -1,0 +1,67 @@
+.explore {
+  text-align: center;
+  padding: 50px 10%;
+  background-color: #eaeff3;
+}
+
+.first-explore p {
+  color: #FF6600;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.first-explore h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.explore .btn {
+  background-color: #1C4670;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 55px;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin: 50px auto 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.explore .btn:hover {
+  background-color: #16345A;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 15px;
+  }
+
+  .explore .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+}

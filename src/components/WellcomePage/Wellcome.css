@@ -1,0 +1,129 @@
+/* Wellcome Section */
+.wellcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 558px; /* Fixed height */
+  background-color: #FAFAFA; /* Matching image background */
+  padding: 0 10%;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 20px; /* Ensures no overlap with the previous section */
+}
+
+/* Left Side - Text Description */
+.wellcome .desc {
+  width: 50%;
+  text-align: left;
+}
+
+.wellcome .desc h2 span {
+  color: #FFA229;
+}
+
+.wellcome .desc .title {
+  color: #FF6A00;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wellcome .desc h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1C4670;
+  margin-bottom: 20px;
+}
+
+.wellcome .desc .about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wellcome .desc .about p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Centered & Responsive Button */
+.wellcome .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1C4670;
+  width: 180px;
+  height: 50px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.wellcome .btn:hover {
+  background-color: #16345A;
+  transform: scale(1.05);
+}
+
+/* Fix: Make the Learn More icon white */
+.wellcome .btn img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  filter: invert(1); /* Converts dark icons to white */
+}
+
+/* Right Side - Image */
+.wellcome .image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.wellcome .image img {
+  max-width: 100%;
+  height: 418px;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .wellcome {
+    flex-direction: column;
+    text-align: center;
+    height: auto; /* Allow height to adjust */
+    padding: 40px 5%;
+  }
+
+  .wellcome .desc {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wellcome .image {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .wellcome .btn {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .wellcome .desc h2 {
+    font-size: 28px;
+  }
+
+  .wellcome .desc p {
+    font-size: 14px;
+  }
+
+  .wellcome .btn {
+    width: 100%;
+    max-width: 200px;
+  }
+}
