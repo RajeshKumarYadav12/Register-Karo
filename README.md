@@ -1,6 +1,5 @@
 RegisterKaro
 Website: www.registerkaro.in
-Contact: +3333666645
 
 Overview
 RegisterKaro is an online business compliance platform designed to assist entrepreneurs and businesses with various registrations, tax filings, and legal matters. Our mission is to provide seamless and efficient services to ensure your business remains compliant and thrives.
