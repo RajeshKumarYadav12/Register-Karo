@@ -3,7 +3,7 @@ import './Footer.css';
 import { FaFacebook, FaGoogle } from 'react-icons/fa';
 import { IoLogoApple } from 'react-icons/io5';
 import { GrInstagram } from 'react-icons/gr';
-import Icon2 from '../../assets/icon2.png';
+import Icon2 from '../../assets/Icon2.png';
 
 const Footer = () => {
   return (
