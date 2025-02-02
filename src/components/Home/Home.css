@@ -379,11 +379,18 @@
   }
   .test-1{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: -10px;
+  
   }
+  .test-1 .testPlay-1 {
+    display: none !important;
+  }
+
   .home-right {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 }
