@@ -73,7 +73,8 @@
   margin-right: 5px;
 }
 
-/* Responsive Styles */
+/* media query */
+
 @media (max-width: 768px) {
   .blogs {
     padding: 5%;

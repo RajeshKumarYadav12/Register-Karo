@@ -2,7 +2,6 @@ import React from 'react'
 import './CompanyTag.css';
 import CompanyLogo from '../../assets/CompanyLogos.png';
 
-
 const CompanyTag = () => {
   return (
     <div className='Logo'>

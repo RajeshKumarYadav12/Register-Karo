@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Navbar from './components/Navbar/Navbar.jsx'
 import Navbar2 from './components/Navbar2/Navbar2.jsx'
 import HomePage from './components/Home/Home.jsx'
@@ -12,7 +13,6 @@ import Blog from './components/Blogs/Blog.jsx'
 import AboutUs from './components/AboutUs/AboutUs.jsx'
 import Question from './components/Questions/Question.jsx'
 import MobilePhone from './components/MobilePhone/MobilePhone.jsx'
-import WhyRegisterKaro from './components/WhyRegisterKaro/WhyRegisterKaro.jsx'
 import Logo from './components/Logos/Logo.jsx'
 import Footer from './components/Footer/Footer.jsx'
 

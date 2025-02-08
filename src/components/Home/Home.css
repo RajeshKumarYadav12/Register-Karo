@@ -86,7 +86,7 @@
   font-weight: 400;
 }
 
-.review .customer .logo {
+.review .customer .customer-logo {
   display: grid;
   align-content: start;
   grid-template-columns: auto auto;
@@ -341,13 +341,13 @@
   /* Adjust the home-right layout to stack elements vertically */
   .home-right {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center the items horizontally */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   /* Make the home-right image responsive */
   .home-right img {
-    width: 100%; /* Ensure the image is responsive */
+    width: 100%;
     margin-top: 20px;
   }
 
@@ -392,5 +392,10 @@
 
   .home-right {
     margin-top: 80px;
+  }
+}
+@media(max-width: 350px) {
+  .home-left .test-1{
+    display: none;
   }
 }

@@ -5,30 +5,30 @@
   padding: 10px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Stronger shadow effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); 
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   display: flex;
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .questionAsk:hover {
   background-color: #f9f9f9;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .exactQuestion {
   display: flex;
-  justify-content: space-between; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
-  width: 100%; /* Makes sure the content takes up the full width of the parent */
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
 }
 
 .exactQuestion p {
   font-size: 16px;
   color: #333;
-  margin-right: 10px; /* Adds space between text and icon */
+  margin-right: 10px; 
 }
 
 .exactQuestion img {

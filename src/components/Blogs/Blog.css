@@ -29,6 +29,8 @@
   margin-top: 40px;
 }
 
+/* media query */
+
 @media (max-width: 768px) {
   .allCards {
     display: flex;
@@ -45,7 +47,7 @@
 .expert-btn {
   background-color: #1c4670;
   display: flex;
-  justify-content: center; /* Ensures proper alignment */
+  justify-content: center; 
   align-items: center;
   text-align: center;
   width: 200px;
@@ -57,7 +59,7 @@
   font-weight: 500;
   margin: 30px auto;
   cursor: pointer;
-  gap: 8px; /* Adds spacing between text and icon */
+  gap: 8px;
   padding: 0 10px;
 }
 
@@ -66,6 +68,6 @@
 }
 
 .arrow-icon {
-  width: 20px; /* Adjust size if needed */
+  width: 20px; 
   height: auto;
 }

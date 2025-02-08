@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
         <div className="review">
           <div className="customer">
-            <div className='logo'>
+            <div className='customer-logo'>
               <img src={Vector} alt="" />
               <img src={Vector} alt="" />
               <img src={Vector} alt="" />

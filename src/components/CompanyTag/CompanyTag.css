@@ -17,18 +17,18 @@
 /* Responsive adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
   .Logo {
-    height: auto; /* Allow height to adjust based on content */
-    gap: 20px; /* Reduce the gap between elements */
-    padding: 10px; /* Add some padding for better spacing */
+    height: auto;
+    gap: 20px; 
+    padding: 10px;
   }
 
   .Logo p {
-    font-size: 18px; /* Reduce font size on smaller screens */
-    text-align: center; /* Center align text */
+    font-size: 18px; 
+    text-align: center;
   }
 
   .Logo img {
-    max-width: 100%; /* Ensure logo scales down with the screen */
-    height: auto; /* Maintain aspect ratio of the logo */
+    max-width: 100%;
+    height: auto; 
   }
 }
